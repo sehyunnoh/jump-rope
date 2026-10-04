@@ -1,0 +1,132 @@
+[
+  {
+    "id": "basic-jump",
+    "name": "Basic Jump",
+    "alias": "양발모아뛰기",
+    "level": 1,
+    "category": "Foundations",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 60, "normal": 90, "music": 110 },
+    "breakdown": ["Jump"],
+    "description": "Both feet leave the ground together, the rope passes once underneath, and you land softly on the balls of your feet. Every other move in RopeBeat is a variation on this single rhythm.",
+    "tips": [
+      "Keep hops low — a few centimeters off the floor is enough room for the rope.",
+      "Turn the rope from your wrists, not your shoulders, so your arms stay relaxed and close to your body."
+    ],
+    "prerequisites": [],
+    "nextSteps": ["run-in-place", "skier"],
+    "videos": [
+      {
+        "youtubeId": "Sz96SdflS9A",
+        "title": "Jump Rope Fundamentals For Beginners",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "run-in-place",
+    "name": "Run-In-Place",
+    "alias": "번갈아뛰기",
+    "level": 1,
+    "category": "Foundations",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 70, "normal": 100, "music": 120 },
+    "breakdown": ["Jump"],
+    "description": "Instead of landing on both feet, you shift your weight foot to foot like a light jog, lifting the free knee between each rope pass.",
+    "tips": [
+      "Picture jogging on the spot — the rope is just along for the ride.",
+      "Keep the lifted knee low; height comes from speed, not from kicking higher."
+    ],
+    "prerequisites": ["basic-jump"],
+    "nextSteps": ["side-swing"],
+    "videos": [
+      {
+        "youtubeId": "Q-WdMD6BaXI",
+        "title": "How To Do A RUN IN PLACE JUMP ROPE | Exercise Demonstration Video and Guide",
+        "channel": "Live Lean TV Daily Exercises",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "side-swing",
+    "name": "Side Swing",
+    "alias": null,
+    "level": 1,
+    "category": "Foundations",
+    "rotationsPerJump": 0,
+    "jpm": { "slow": 50, "normal": 80, "music": 100 },
+    "breakdown": ["Swing"],
+    "description": "No jump at all — you swing the rope beside your hip, back and forth, without it passing underneath you. It's the move you'll drop into between tricks to reset your rhythm.",
+    "tips": [
+      "Keep your elbow tucked and let your forearm and wrist do the swinging motion.",
+      "Practice this before a trick that starts from a swing, so the transition into the jump is seamless."
+    ],
+    "prerequisites": ["basic-jump"],
+    "nextSteps": ["skier"],
+    "videos": [
+      {
+        "youtubeId": "RmeF1YtCk84",
+        "title": "Ultimate Guide To Jump Rope Side Swings",
+        "channel": "Kyle Easter",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "skier",
+    "name": "Skier",
+    "alias": null,
+    "level": 1,
+    "category": "Foundations",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 60, "normal": 90, "music": 110 },
+    "breakdown": ["Jump"],
+    "description": "Both feet stay together and jump side to side over an imaginary line, the way a skier's feet move down a slope, while the rope keeps turning underneath at the regular one-per-jump pace.",
+    "tips": [
+      "Keep the side-to-side hop small — a shoulder-width sway is plenty.",
+      "Let your knees absorb the landing so the swing doesn't bounce up into your shoulders."
+    ],
+    "prerequisites": ["basic-jump"],
+    "nextSteps": ["front-and-side-straddle"],
+    "videos": [
+      {
+        "youtubeId": "Q1gxyT_JdYk",
+        "title": "Jump Rope - The Skier",
+        "channel": "Matt Head",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "front-and-side-straddle",
+    "name": "Front and Side Straddle",
+    "alias": null,
+    "level": 1,
+    "category": "Foundations",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 55, "normal": 85, "music": 105 },
+    "breakdown": ["Jump"],
+    "description": "Feet open out to the sides on one jump (side straddle) and open front-to-back on the next (front straddle), alternating like a slow jumping-jack while the rope keeps the same single-pass rhythm.",
+    "tips": [
+      "Open your feet only as wide as feels controlled — balance matters more than width here.",
+      "Practice the front/back version separately from the side version before alternating them."
+    ],
+    "prerequisites": ["skier"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "APrac1F8B4g",
+        "title": "Jump Rope Front & Side Straddle Tutorial",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  }
+]
