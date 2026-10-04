@@ -27,6 +27,8 @@ export interface Move {
   /** Korean alias — null means not yet verified against a Korean-language source. Never guess one in. */
   alias: string | null;
   level: LevelId;
+  /** false = descriptive placeholder name (spotted in a video, no recognized trick name exists) — flagged in the UI, never implied to be a real community term. Omitted/true = a real, recognized name. */
+  officialName?: boolean;
   category: string;
   rotationsPerJump: number;
   jpm: { slow: number; normal: number; music: number };

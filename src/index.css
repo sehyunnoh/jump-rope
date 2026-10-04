@@ -283,6 +283,18 @@ body {
 .move-card .ko.pending {
   font-style: italic;
 }
+.unnamed-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border: 1px dashed var(--court-2);
+  border-radius: 6px;
+  font: 600 9px "Public Sans";
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-45);
+  vertical-align: middle;
+}
 .move-card .rot {
   font: 600 11px "IBM Plex Mono";
   background: var(--chalk-2);
@@ -387,6 +399,19 @@ body {
   color: var(--ink-45);
   margin-top: 5px;
   display: block;
+}
+.detail-title .unnamed-tag {
+  vertical-align: middle;
+  margin-left: 8px;
+  transform: translateY(-6px);
+}
+.unnamed-note {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-45);
+  font-style: italic;
+  max-width: 52ch;
 }
 .tag-row {
   display: flex;

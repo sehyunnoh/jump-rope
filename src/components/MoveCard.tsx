@@ -8,7 +8,10 @@ export default function MoveCard({ move, level }: { move: Move; level: Level }) 
         L{level.id}
       </span>
       <span className="body">
-        <span className="en">{move.name}</span>
+        <span className="en">
+          {move.name}
+          {move.officialName === false && <span className="unnamed-tag">unnamed</span>}
+        </span>
         <span className={`ko${move.alias ? "" : " pending"}`}>
           {move.alias ?? "alias pending"}
         </span>

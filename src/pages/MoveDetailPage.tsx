@@ -45,7 +45,15 @@ export default function MoveDetailPage() {
       </div>
 
       <div className="detail-title">
-        <span className="en display">{move.name}</span>
+        <span className="en display">
+          {move.name}
+          {move.officialName === false && <span className="unnamed-tag">unnamed</span>}
+        </span>
+        {move.officialName === false && (
+          <p className="unnamed-note">
+            No recognized trick name exists for this — it's a descriptive placeholder for a move spotted in a practice video, not an official or community term.
+          </p>
+        )}
         <span className="ko">
           {move.alias ? (
             <>
