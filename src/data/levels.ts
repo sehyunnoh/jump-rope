@@ -31,15 +31,15 @@ export const LEVELS: Level[] = [
     subtitle: "First freestyle tricks",
     tabLabel: "FREE.",
     colorVar: "var(--l4)",
-    description: "Wraps, crosses and footwork combined — direction still being researched.",
+    description: "Elbow crosses, swing transitions and under-the-leg reaches — the building blocks of freestyle.",
   },
   {
     id: 5,
     name: "Performance & Routines",
-    subtitle: "Music-synced combos",
+    subtitle: "Highest-difficulty single moves",
     tabLabel: "PERF.",
     colorVar: "var(--l5)",
-    description: "Stringing moves together to music — direction still being researched.",
+    description: "The hardest individual moves in RopeBeat. Stringing these into music-synced routines is a later feature, not part of this reference yet.",
   },
 ];
 

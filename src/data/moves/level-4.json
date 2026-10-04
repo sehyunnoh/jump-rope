@@ -1,0 +1,106 @@
+[
+  {
+    "id": "eb",
+    "name": "EB (Elbow Cross)",
+    "alias": null,
+    "level": 4,
+    "category": "Freestyle Basics",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 55, "normal": 85, "music": 105 },
+    "breakdown": ["Elbow cross"],
+    "description": "Short for 'elbow,' one hand crosses over to the opposite elbow instead of crossing wrist-to-wrist like a normal crossover — a tighter, higher cross that most freestyle combos use as a connector move.",
+    "tips": [
+      "Only one hand travels; the other stays put near your hip as the anchor the crossing hand reaches toward.",
+      "Keep the cross high, near your chest, so there's enough rope clearance below for your feet."
+    ],
+    "prerequisites": ["crossover"],
+    "nextSteps": ["side-swing-criss-cross"],
+    "videos": [
+      {
+        "youtubeId": "T3NlWQr1ilk",
+        "title": "JUMP ROPE TUTORIAL // EB",
+        "channel": "Tori Boggs",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "mummy-kicks",
+    "name": "Mummy Kicks",
+    "alias": null,
+    "level": 4,
+    "category": "Freestyle Basics",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 65, "normal": 95, "music": 115 },
+    "breakdown": ["Kick L", "Kick R"],
+    "description": "Each jump turns into a straight-leg kick out in front of you, alternating legs — arms held out mummy-style for balance while the rope keeps its normal one-pass rhythm.",
+    "tips": [
+      "Kick low and quick rather than high and slow; a hip-height kick is plenty and keeps the timing with the rope.",
+      "Keep your supporting knee soft so you don't bounce too high between kicks."
+    ],
+    "prerequisites": ["run-in-place"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "ZtgxBUOxJ-Q",
+        "title": "Mummy Kicks",
+        "channel": "Korin Sutton",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "side-swing-criss-cross",
+    "name": "Side Swing Criss-Cross",
+    "alias": null,
+    "level": 4,
+    "category": "Freestyle Basics",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 50, "normal": 80, "music": 100 },
+    "breakdown": ["Swing", "Cross"],
+    "description": "You swing the rope beside your hip without jumping, then on the next beat cross your arms and jump through — a swing-into-cross transition that shows up constantly in freestyle routines as a breather between harder tricks.",
+    "tips": [
+      "Keep the swing small and relaxed; it's a pause, not a trick on its own.",
+      "Start the cross from the swing's momentum instead of stopping the rope first — a clean handoff keeps the rhythm unbroken."
+    ],
+    "prerequisites": ["side-swing", "criss-cross"],
+    "nextSteps": ["double-under-side-swing"],
+    "videos": [
+      {
+        "youtubeId": "JAFaNp8vdwQ",
+        "title": "Learn how to do a Side Swing Criss Cross Jumping Rope Tutorial",
+        "channel": "Jump Rope Mom",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "toad",
+    "name": "Toad",
+    "alias": null,
+    "level": 4,
+    "category": "Freestyle Basics",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 50, "normal": 75, "music": 95 },
+    "breakdown": ["Arm under leg"],
+    "description": "One arm reaches under the same-side lifted leg while the other hand keeps the rope turning normally — an under-the-leg cross that looks dramatic but only needs a small knee lift.",
+    "tips": [
+      "Lift the leg just enough to slide your hand underneath — chasing height makes the timing harder, not easier.",
+      "Practice the arm-under-leg reach standing still, without the rope, until it's a reflex."
+    ],
+    "prerequisites": ["crossover"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "jvx6agCe2G8",
+        "title": "JUMP ROPE TUTORIAL // Trick : Toad",
+        "channel": "Jumpplus World",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  }
+]

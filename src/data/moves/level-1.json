@@ -118,7 +118,7 @@
       "Practice the front/back version separately from the side version before alternating them."
     ],
     "prerequisites": ["skier"],
-    "nextSteps": [],
+    "nextSteps": ["boxer-step"],
     "videos": [
       {
         "youtubeId": "APrac1F8B4g",

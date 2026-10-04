@@ -1,7 +1,17 @@
 import type { Move } from "../types";
 import level1 from "./moves/level-1.json";
+import level2 from "./moves/level-2.json";
+import level3 from "./moves/level-3.json";
+import level4 from "./moves/level-4.json";
+import level5 from "./moves/level-5.json";
 
-const ALL_MOVES: Move[] = [...(level1 as Move[])];
+const ALL_MOVES: Move[] = [
+  ...(level1 as Move[]),
+  ...(level2 as Move[]),
+  ...(level3 as Move[]),
+  ...(level4 as Move[]),
+  ...(level5 as Move[]),
+];
 
 export function getAllMoves(): Move[] {
   return ALL_MOVES;

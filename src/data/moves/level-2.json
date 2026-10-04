@@ -1,0 +1,106 @@
+[
+  {
+    "id": "boxer-step",
+    "name": "Boxer Step",
+    "alias": null,
+    "level": 2,
+    "category": "Core Footwork & Crossover",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 70, "normal": 100, "music": 120 },
+    "breakdown": ["Step L", "Step R"],
+    "description": "Weight rocks from foot to foot like a boxer shadowboxing, instead of landing on both feet together. One foot taps down lightly while the other carries most of the weight, and they swap every rope pass.",
+    "tips": [
+      "Stay on the balls of your feet the whole time — flat heels will slow the rhythm down.",
+      "Start slower than feels natural; the weight shift only needs to be a few centimeters."
+    ],
+    "prerequisites": ["run-in-place"],
+    "nextSteps": ["crossover"],
+    "videos": [
+      {
+        "youtubeId": "1-KvIEU03yc",
+        "title": "Learn The Jump Rope Boxer Skip In 5 Easy Steps",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "crossover",
+    "name": "Crossover",
+    "alias": null,
+    "level": 2,
+    "category": "Core Footwork & Crossover",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 65, "normal": 95, "music": 115 },
+    "breakdown": ["Open", "Cross"],
+    "description": "Your hands cross in front of your body right before the rope passes under your feet, so the loop comes down crossed instead of open — the entry point for every criss-cross style trick.",
+    "tips": [
+      "Cross at the wrists, not the elbows, and keep your hands close together so the loop stays small.",
+      "Jump through the crossed loop before you worry about uncrossing — the exit can wait until the cross feels automatic."
+    ],
+    "prerequisites": ["boxer-step"],
+    "nextSteps": ["criss-cross"],
+    "videos": [
+      {
+        "youtubeId": "N-XT_3_BZuE",
+        "title": "JUMP ROPE 101 - Swings & Crossovers Tutorial",
+        "channel": "Lauren Jumps",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "criss-cross",
+    "name": "Criss-Cross",
+    "alias": null,
+    "level": 2,
+    "category": "Core Footwork & Crossover",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 60, "normal": 90, "music": 110 },
+    "breakdown": ["Open", "Cross"],
+    "description": "The full open-cross-open cycle: jump through the rope normally, cross your arms for one pass, then uncross and return to open hands — repeated as a steady rhythm instead of a one-off crossover.",
+    "tips": [
+      "Think 'open, cross, open, cross' out loud at first to keep the pattern even.",
+      "Keep your arms low and close to your hips — reaching wide to cross makes the rope catch your feet."
+    ],
+    "prerequisites": ["crossover"],
+    "nextSteps": ["three-sixty-turn", "double-under"],
+    "videos": [
+      {
+        "youtubeId": "DxfWDlDSzU8",
+        "title": "Learn The Jump Rope Criss Cross",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "three-sixty-turn",
+    "name": "360° Turn",
+    "alias": null,
+    "level": 2,
+    "category": "Core Footwork & Crossover",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 55, "normal": 80, "music": 100 },
+    "breakdown": ["Turn"],
+    "description": "You spin your whole body a full circle over several ordinary jumps while the rope keeps turning underneath at the normal one-pass rhythm — the rope doesn't change, your orientation does.",
+    "tips": [
+      "Spot a point on the wall and spin toward it in small stages across 3-4 jumps rather than one big twist.",
+      "Keep your wrists steady through the turn; let your whole arm rotate with your body instead of fighting it."
+    ],
+    "prerequisites": ["criss-cross"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "qkLVTkeWJPs",
+        "title": "JUMP ROPE TUTORIAL // 180 & 360",
+        "channel": "Tori Boggs",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  }
+]

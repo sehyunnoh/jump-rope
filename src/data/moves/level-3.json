@@ -1,0 +1,80 @@
+[
+  {
+    "id": "double-under",
+    "name": "Double Under",
+    "alias": "이단뛰기",
+    "level": 3,
+    "category": "Double Unders",
+    "rotationsPerJump": 2,
+    "jpm": { "slow": 50, "normal": 80, "music": 100 },
+    "breakdown": ["Jump", "Double spin"],
+    "description": "The rope passes under your feet twice during a single, slightly higher jump. The extra height comes from a sharper push off the ground, not from kicking your legs up.",
+    "tips": [
+      "Snap the rope with your wrists right as you leave the ground — a slow turn needs a bigger jump to compensate.",
+      "Land soft and immediately absorb with bent knees; stiff landings bounce you out of rhythm before the next rep."
+    ],
+    "prerequisites": ["criss-cross"],
+    "nextSteps": ["double-criss-cross", "triple-under"],
+    "videos": [
+      {
+        "youtubeId": "4tsT6hDB6Aw",
+        "title": "Jump Rope Double Under Tutorial",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "double-criss-cross",
+    "name": "Double Criss-Cross",
+    "alias": null,
+    "level": 3,
+    "category": "Double Unders",
+    "rotationsPerJump": 2,
+    "jpm": { "slow": 45, "normal": 70, "music": 90 },
+    "breakdown": ["Cross", "Extra spin"],
+    "description": "You cross your arms and hold the cross through two rope passes instead of one, so the rope spins twice underneath you while your hands stay crossed the whole time.",
+    "tips": [
+      "Master a slow, controlled regular criss-cross first — the double only works once the cross itself is automatic.",
+      "Slow the rope slightly as you cross so the second pass has time to clear your feet before you uncross."
+    ],
+    "prerequisites": ["double-under", "criss-cross"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "_L_QDajuXyY",
+        "title": "How To Do The Double Criss Cross",
+        "channel": "Jump Rope Dudes",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "triple-under",
+    "name": "Triple Under",
+    "alias": null,
+    "level": 3,
+    "category": "Double Unders",
+    "rotationsPerJump": 3,
+    "jpm": { "slow": 35, "normal": 55, "music": 70 },
+    "breakdown": ["Jump", "Triple spin"],
+    "description": "Three rope passes under one jump. It takes a noticeably bigger push off the ground than a double under, plus a faster wrist flick to fit the third pass in before you land.",
+    "tips": [
+      "Build up from doubles by holding the double-under jump height for a few reps before adding the third spin.",
+      "Keep your elbows pinned to your sides — flapping arms steal speed the rope needs for the extra rotation."
+    ],
+    "prerequisites": ["double-under"],
+    "nextSteps": ["double-under-side-swing"],
+    "videos": [
+      {
+        "youtubeId": "vrm4ebrfRug",
+        "title": "Advanced Jump Rope Tricks Tutorial - How to do TRIPLE UNDERS",
+        "channel": "Healthy Transformation",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  }
+]

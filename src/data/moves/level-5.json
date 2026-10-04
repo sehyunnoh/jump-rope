@@ -1,0 +1,54 @@
+[
+  {
+    "id": "double-under-side-swing",
+    "name": "Double Under Side Swing",
+    "alias": null,
+    "level": 5,
+    "category": "Performance & Routines",
+    "rotationsPerJump": 2,
+    "jpm": { "slow": 40, "normal": 65, "music": 85 },
+    "breakdown": ["Swing", "Double spin"],
+    "description": "A side swing feeds directly into a double under — the swing's arm momentum is what powers the extra rotation, so the double under here comes from timing and swing speed rather than a bigger jump.",
+    "tips": [
+      "Let the swing build speed for 2-3 reps before committing to the double — a slow swing can't power two passes.",
+      "The transition happens at your hip height; don't lift your hands to chest height to 'help' the rope around."
+    ],
+    "prerequisites": ["double-under", "side-swing"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "aThDVXxRAqM",
+        "title": "Learn how to do Double Under Side Swings Jumping Rope Tutorial",
+        "channel": "Jump Rope Mom",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "double-dutch-entry",
+    "name": "Double Dutch Entry",
+    "alias": null,
+    "level": 5,
+    "category": "Performance & Routines",
+    "rotationsPerJump": 1,
+    "jpm": { "slow": 60, "normal": 90, "music": 110 },
+    "breakdown": ["Time entry", "Jump in"],
+    "description": "Two turners swing a pair of ropes in opposite, overlapping circles while a third person reads the gap and jumps in without a rope in hand — the hardest part is entirely about timing, not jump technique. A good family trick: two people turn while a third practices the entry.",
+    "tips": [
+      "Watch the rope closest to you, not both ropes — it tells you exactly when the gap opens.",
+      "Step in on a small bounce rather than a big jump; you can always jump bigger once you're inside and settled."
+    ],
+    "prerequisites": ["basic-jump"],
+    "nextSteps": [],
+    "videos": [
+      {
+        "youtubeId": "XvT0Lops9WE",
+        "title": "How To Double Dutch- Basics",
+        "channel": "Jumping Jordyn",
+        "type": "tutorial"
+      }
+    ],
+    "status": "complete"
+  }
+]
