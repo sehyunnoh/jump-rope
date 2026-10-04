@@ -4,7 +4,7 @@ import MoveListPage from "./pages/MoveListPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<MoveListPage />} />
         <Route path="/moves/:id" element={<MoveDetailPage />} />
