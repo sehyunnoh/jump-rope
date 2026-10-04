@@ -616,6 +616,18 @@ body {
   font: 700 13px "Public Sans";
   display: block;
 }
+.bchip-link {
+  flex: 1;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.bchip-link .bchip {
+  flex: none;
+}
+.bchip-link:hover .bchip {
+  border-color: var(--pulse);
+}
 .count-wrap {
   padding: 10px 16px 14px;
 }

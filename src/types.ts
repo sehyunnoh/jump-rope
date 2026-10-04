@@ -33,6 +33,9 @@ export interface Move {
   rotationsPerJump: number;
   jpm: { slow: number; normal: number; music: number };
   breakdown: string[];
+  /** Move ids matching `breakdown`, in the same order — present only on a combo entry, so each
+   *  breakdown chip can link straight to that move's own page instead of being plain text. */
+  comboOf?: string[];
   description: string;
   tips: string[];
   prerequisites: string[];

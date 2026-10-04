@@ -85,7 +85,7 @@ export default function MoveDetailPage() {
         onToggleMirror={() => setMirrored((v) => !v)}
       />
 
-      <BreakdownRow breakdown={move.breakdown} />
+      <BreakdownRow breakdown={move.breakdown} comboOf={move.comboOf} />
       <CountGrid rotationsPerJump={move.rotationsPerJump} />
 
       <div className="tips">
